@@ -23,7 +23,7 @@ $padding-map:(
 }
 
 @each $margin, $value in $margin-map {
-    .padding-#{$margin} {
+    .margin-#{$margin} {
        margin: $value;
     }
 }
