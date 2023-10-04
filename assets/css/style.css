@@ -98,7 +98,11 @@ nav ul li a:hover {
   border-radius: 10px;
   color: #f4f4f4;
   padding: 0.8em;
+  transition: transform 0.3s;
   background-color: #0e6cff;
+}
+.button1:hover {
+  transform: scale(1.2);
 }
 
 .button2 {
@@ -107,7 +111,11 @@ nav ul li a:hover {
   border-radius: 10px;
   color: #f4f4f4;
   padding: 0.8em;
+  transition: transform 0.3s;
   background-color: #ff8700;
+}
+.button2:hover {
+  transform: scale(1.2);
 }
 
 .button3 {
@@ -116,7 +124,11 @@ nav ul li a:hover {
   border-radius: 10px;
   color: #f4f4f4;
   padding: 0.8em;
+  transition: transform 0.3s;
   background-color: #4caf50;
+}
+.button3:hover {
+  transform: scale(1.2);
 }
 
 h1 {
@@ -148,30 +160,27 @@ h1 {
 }
 
 .container {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  width: calc(100% / -2);
-}
-@media screen and (min-width: 1000px) {
-  .container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    width: calc(100% / -4);
-  }
+  position: relative;
 }
 .container .item {
-  width: 100%;
-  padding: 10px;
-  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: calc(100% / 4*1%);
+  flex-grow: 1;
 }
-.container .item img {
+.container .item div {
+  padding-inline: 2em;
+}
+.container .item div img {
+  width: 100%;
   border: none;
   box-shadow: 5px 5px 19px -2px #000000;
   border-radius: 10px;
   color: #f4f4f4;
   padding: 0.8em;
-  width: 400px;
-  height: 400px;
+  transition: transform 0.3s;
+}
+.container .item div img:hover {
+  transform: scale(1.2);
 }/*# sourceMappingURL=style.css.map */
