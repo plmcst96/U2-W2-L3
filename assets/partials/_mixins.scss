@@ -10,3 +10,22 @@
     box-shadow: 5px 5px 19px -2px #000000;
     border-radius: 10px;
 }
+
+@mixin grid($num-elementi-per-riga) {
+    display: flex;
+    flex-wrap: wrap;
+  
+    // Calcola la larghezza dei singoli elementi in base al numero di elementi per riga
+    width: calc(100% / #{$num-elementi-per-riga});
+  
+    // Aggiungi uno spazio tra gli elementi
+    margin-right: -1%;
+    margin-left: -1%;
+  
+    // Resetta il margin dei primi e ultimi elementi in ogni riga
+    &:nth-child(#{$num-elementi-per-riga}n) {
+      margin-right: 0;
+    }
+  
+    &:nth-child(#{$num-elementi-per-riga}n + 1) {
+      margin-left: 0;}}
