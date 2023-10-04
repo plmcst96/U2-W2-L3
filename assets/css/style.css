@@ -37,27 +37,27 @@ ul {
   padding: 0 7em 0 7em;
 }
 
-.padding-xs {
+.margin-xs {
   margin: 1.5em 1.5em 1.5em 1.5em;
 }
 
-.padding-sm {
+.margin-sm {
   margin: 1.5em 1.5em 1.5em 1.5em;
 }
 
-.padding-normal {
+.margin-normal {
   margin: 2em 2.3em 2em 2.3em;
 }
 
-.padding-lg {
+.margin-lg {
   margin: 3em 2.5em 3em 2.5em;
 }
 
-.padding-xl {
+.margin-xl {
   margin: 5em 4.5em 5em 4.5em;
 }
 
-.padding-xxl {
+.margin-xxl {
   margin: 5em 5em 5em 5em;
 }
 
