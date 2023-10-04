@@ -92,6 +92,23 @@ nav ul li a:hover {
   color: #191919;
 }
 
+.btn {
+  border: none;
+  box-shadow: 5px 5px 19px -2px #000000;
+  border-radius: 10px;
+  color: #f4f4f4;
+  padding: 0.8em;
+}
+.btn.button1 {
+  background-color: #0e6cff;
+}
+.btn.button2 {
+  background-color: #ff8700;
+}
+.btn.button3 {
+  background-color: #4caf50;
+}
+
 h1 {
   font-size: 40px;
   color: #f4f4f4;
