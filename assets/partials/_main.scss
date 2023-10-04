@@ -1,0 +1,28 @@
+h1{
+    @include title-big;
+ 
+}
+
+
+.hero{
+    background-color: $bg-hero;
+    background-image: url(../image/img-grid4.jpeg);
+    background-size: cover;
+    width: 100%;
+    padding: 3em;
+    h1{
+        @include title-big;
+     
+    }
+
+h3{
+    font-size: $h3-size;
+    font-weight: $font-weight2;
+    color: $color-text;
+   
+}
+p{
+    font-size: $p-size;
+    color: $color-text;
+}
+}

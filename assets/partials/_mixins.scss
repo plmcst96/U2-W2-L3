@@ -1,0 +1,12 @@
+@mixin title-big {
+    font-size: $h1-size;
+    color: $color-text;
+
+    font-weight: $font-weight;
+}
+
+@mixin floating{
+    border: none;
+    box-shadow: 5px 5px 19px -2px #000000;
+    border-radius: 10px;
+}
