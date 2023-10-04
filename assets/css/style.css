@@ -65,33 +65,6 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-nav {
-  background-color: #191919;
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-}
-nav img {
-  width: 150px;
-  border-radius: 100px;
-}
-nav ul {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-nav ul li {
-  padding-right: 2.3em;
-  font-size: 16px;
-}
-nav ul li a {
-  text-decoration: none;
-  color: white;
-}
-nav ul li a:hover {
-  color: #78a5f2;
-}
-
 .button1 {
   border: none;
   box-shadow: 5px 5px 19px -2px #000000;
@@ -129,6 +102,33 @@ nav ul li a:hover {
 }
 .button3:hover {
   transform: scale(1.2);
+}
+
+nav {
+  background-color: #191919;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+nav img {
+  width: 150px;
+  border-radius: 100px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav ul li {
+  padding-right: 2.3em;
+  font-size: 16px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  color: #78a5f2;
 }
 
 h1 {
