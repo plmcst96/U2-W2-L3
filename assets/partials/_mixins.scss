@@ -19,5 +19,5 @@
     flex-wrap: wrap;
   
     // Calcola la larghezza dei singoli elementi in base al numero di elementi per riga
-    width: calc(100% / #{$num-elementi-per-riga});
+    width: calc(100% / -#{$num-elementi-per-riga});
   }

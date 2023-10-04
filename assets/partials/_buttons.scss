@@ -1,13 +1,11 @@
+$buttons:( 'button1': $button1-color,
+'button2': $button2-color,
+ 'button3':$button3-color,);
 
-.btn{
-    @include floating;
-    &.button1{
-        background-color: $button-color1;
-    }
-    &.button2{
-        background-color: $button-color2;
-    }
-    &.button3{
-        background-color: $button-color3;
+// andiamo a creare dinamicamente le classi per i bottoni
+@each $button, $value in $buttons{
+    .#{$button}{
+        @include floating;
+        background-color: $value;
     }
 }

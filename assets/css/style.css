@@ -3,7 +3,7 @@ html, body {
   margin: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, p {
   margin: 0;
   font-size: 13px;
 }
@@ -92,20 +92,30 @@ nav ul li a:hover {
   color: #78a5f2;
 }
 
-.btn {
+.button1 {
   border: none;
   box-shadow: 5px 5px 19px -2px #000000;
   border-radius: 10px;
   color: #f4f4f4;
   padding: 0.8em;
-}
-.btn.button1 {
   background-color: #0e6cff;
 }
-.btn.button2 {
+
+.button2 {
+  border: none;
+  box-shadow: 5px 5px 19px -2px #000000;
+  border-radius: 10px;
+  color: #f4f4f4;
+  padding: 0.8em;
   background-color: #ff8700;
 }
-.btn.button3 {
+
+.button3 {
+  border: none;
+  box-shadow: 5px 5px 19px -2px #000000;
+  border-radius: 10px;
+  color: #f4f4f4;
+  padding: 0.8em;
   background-color: #4caf50;
 }
 
@@ -137,20 +147,18 @@ h1 {
   color: #f4f4f4;
 }
 
-@media screen and (min-width: 576px) {
-  .container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    width: calc(100% / 2);
-  }
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: calc(100% / -2);
 }
 @media screen and (min-width: 1000px) {
   .container {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    width: calc(100% / 4);
+    width: calc(100% / -4);
   }
 }
 .container .item {
@@ -159,6 +167,11 @@ h1 {
   box-sizing: border-box;
 }
 .container .item img {
+  border: none;
+  box-shadow: 5px 5px 19px -2px #000000;
+  border-radius: 10px;
+  color: #f4f4f4;
+  padding: 0.8em;
   width: 400px;
   height: 400px;
 }/*# sourceMappingURL=style.css.map */

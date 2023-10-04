@@ -28,9 +28,8 @@ p{
 }
 
 .container {
-    @media  screen and (min-width: 576px) {
+
         @include grid(2); // Specifica il numero di elementi per riga (ad esempio, 3 elementi per riga)  
-    }
     @media  screen and (min-width: 1000px) {
         @include grid(4); // Specifica il numero di elementi per riga (ad esempio, 3 elementi per riga)  
     }
@@ -40,6 +39,7 @@ p{
         padding: 10px;
         box-sizing: border-box;
         & img{
+            @include floating;
             width: 400px;
             height: 400px;
         }
