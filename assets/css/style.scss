@@ -10,12 +10,12 @@
 
 
 nav{
-    background-color: $bg-nav;
+    background-color: $bg-hero;
     display: flex;
     justify-content: space-between;
     width: 100%;
     img{
-        width: 150px;
+        width: 120px;
         border-radius: 100px;
     }
     ul{
@@ -48,40 +48,49 @@ h1{
     background-color: $bg-hero;
     background-image: url(../image/img-grid4.jpeg);
     background-size: cover;
-    width: 100%;
+    width: 93.7vw;
     padding: 3em;
     h1{
         @include title-big;
-     
+        @include animate-from-top(1s, 10px, 0, 300ms);
     }
 
 h3{
     font-size: $h3-size;
     font-weight: $font-weight2;
     color: $color-text;
+    @include animate-from-top(1s, 10px, 0, 700ms);
    
 }
 p{
     font-size: $p-size;
     color: $color-text;
+    @include animate-from-top(1s, 10px, 0, 600ms);
 }
+button:first-of-type {
+    @include animate-from-top(1s, 10px, 0, 800ms);
+  }
+  button:nth-of-type(2) {
+    @include animate-from-top(1s, 10px, 0, 900ms);
+  }
+  button:last-of-type {
+    @include animate-from-top(1s, 10px, 0, 1000ms);
+  }
 }
 
-.container {
-
-    position: relative;
-
+main .container {
+    display: flex;
+    width: 100%;
     .item {
       @include grid(4);
-      div {
-        padding-inline: 2em;
+  
+        padding-inline: 0.5em;
         img {
-          width: 100%;
+          width: 300px;
+          height: 300px;
           @include floating;
         }
-      }
-    }
-    
+    }  
   }
   
 
