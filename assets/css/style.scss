@@ -78,7 +78,10 @@ button:first-of-type {
   }
 }
 
-main .container {
+main {
+    width: 80%;
+    margin: 0 2em;
+.container {
     display: flex;
     width: 100%;
     .item {
@@ -90,19 +93,22 @@ main .container {
         }
     }  
   }
+}
 
   .text{
     @include floating;
     background-color: #78a5f2;
     margin-top: 2em;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     width: 90%;
+    align-items: center;
     p{
         font-size: $p-size;
     }
     i{
         color: $bg-hero;
+        font-size: 35px;
     }
   }
   

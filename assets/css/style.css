@@ -148,12 +148,12 @@ h1 {
   font-size: 60px;
   color: #f4f4f4;
   font-weight: 700;
-  animation-name: animate-from-top-ujwsg1y;
+  animation-name: animate-from-top-ujwsgst;
   animation-duration: 1s;
   animation-fill-mode: both;
   animation-delay: 300ms;
 }
-@keyframes animate-from-top-ujwsg1y {
+@keyframes animate-from-top-ujwsgst {
   from {
     opacity: 0;
     translate: 0 -10px;
@@ -167,12 +167,12 @@ h1 {
   font-size: 30px;
   font-weight: 500;
   color: #f4f4f4;
-  animation-name: animate-from-top-ujwsg1z;
+  animation-name: animate-from-top-ujwsgtf;
   animation-duration: 1s;
   animation-fill-mode: both;
   animation-delay: 700ms;
 }
-@keyframes animate-from-top-ujwsg1z {
+@keyframes animate-from-top-ujwsgtf {
   from {
     opacity: 0;
     translate: 0 -10px;
@@ -185,12 +185,12 @@ h1 {
 .hero p {
   font-size: 16px;
   color: #f4f4f4;
-  animation-name: animate-from-top-ujwsg2x;
+  animation-name: animate-from-top-ujwsgu5;
   animation-duration: 1s;
   animation-fill-mode: both;
   animation-delay: 600ms;
 }
-@keyframes animate-from-top-ujwsg2x {
+@keyframes animate-from-top-ujwsgu5 {
   from {
     opacity: 0;
     translate: 0 -10px;
@@ -201,12 +201,12 @@ h1 {
   }
 }
 .hero button:first-of-type {
-  animation-name: animate-from-top-ujwsg3q;
+  animation-name: animate-from-top-ujwsguj;
   animation-duration: 1s;
   animation-fill-mode: both;
   animation-delay: 800ms;
 }
-@keyframes animate-from-top-ujwsg3q {
+@keyframes animate-from-top-ujwsguj {
   from {
     opacity: 0;
     translate: 0 -10px;
@@ -217,12 +217,12 @@ h1 {
   }
 }
 .hero button:nth-of-type(2) {
-  animation-name: animate-from-top-ujwsg3v;
+  animation-name: animate-from-top-ujwsguo;
   animation-duration: 1s;
   animation-fill-mode: both;
   animation-delay: 900ms;
 }
-@keyframes animate-from-top-ujwsg3v {
+@keyframes animate-from-top-ujwsguo {
   from {
     opacity: 0;
     translate: 0 -10px;
@@ -233,12 +233,12 @@ h1 {
   }
 }
 .hero button:last-of-type {
-  animation-name: animate-from-top-ujwsg3y;
+  animation-name: animate-from-top-ujwsguq;
   animation-duration: 1s;
   animation-fill-mode: both;
   animation-delay: 1000ms;
 }
-@keyframes animate-from-top-ujwsg3y {
+@keyframes animate-from-top-ujwsguq {
   from {
     opacity: 0;
     translate: 0 -10px;
@@ -249,6 +249,10 @@ h1 {
   }
 }
 
+main {
+  width: 80%;
+  margin: 0 2em;
+}
 main .container {
   display: flex;
   width: 100%;
@@ -285,8 +289,9 @@ main .container .item img:hover {
   background-color: #78a5f2;
   margin-top: 2em;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   width: 90%;
+  align-items: center;
 }
 .text:hover {
   transform: scale(1.1);
@@ -296,4 +301,5 @@ main .container .item img:hover {
 }
 .text i {
   color: #640fc5;
+  font-size: 35px;
 }/*# sourceMappingURL=style.css.map */
